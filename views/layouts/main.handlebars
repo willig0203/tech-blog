@@ -14,19 +14,33 @@
 
 <nav class="navbar navbar-dark bg-light">
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#dashboard">Dashboard</a>
-        <a href="#signup">Signup</a>
-        <a href="#login">Login</a>
-        <a href="#logout">Logout</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        {{!-- <button id="logout" class="btn-no-style">logout</button> --}}
+        <a href="/api/main/home" id="#home" class=".home">Home</a>
+        <a href="/api/main/dashboard">Dashboard</a>
+        <a href="/api/main/signup">Signup</a>
+        {{!-- <a href="/api/main/login">Login</a>
+        <a href="/api/main/logout">Logout</a> --}}
+        {{!-- <a href="javascript:void(0);" class="icon" onclick="homeHandler()">
             <i class="fa fa-bars"></i>
-        </a>
+        </a> --}}
         <a class="navbar-brand" href="index.html">The Tech Blog
         </a>
+
+        {{#if loggedIn}}
+        <a class="navbar-brand" href="/api/main/logout">Logout</a>
+        {{!-- <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button> --}}
+        {{else}}
+        {{!-- <a href="/login">login</a> --}}
+        <a class="navbar-brand" href="/api/main/login">Login</a>
+        {{/if}}
+
     </div>
 </nav>
 
 <main>
     {{{ body }}}
 </main>
+
+<script src="/javascript/main.js"></script>
+<script src="/javascript/topNav.js"></script>
