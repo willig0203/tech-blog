@@ -11,28 +11,24 @@
     <link rel="stylesheet" href="./assets/css/styles.css" /> --}}
 </head>
 
-
 <nav class="navbar navbar-dark bg-light">
     <div class="topnav" id="myTopnav">
-        {{!-- <button id="logout" class="btn-no-style">logout</button> --}}
+        <a>The Tech Blog</a>
+        <br>
         <a href="/api/main/home" id="#home" class=".home">Home</a>
         <a href="/api/main/dashboard">Dashboard</a>
         <a href="/api/main/signup">Signup</a>
-        {{!-- <a href="/api/main/login">Login</a>
-        <a href="/api/main/logout">Logout</a> --}}
-        {{!-- <a href="javascript:void(0);" class="icon" onclick="homeHandler()">
-            <i class="fa fa-bars"></i>
+
+        {{!-- <a class="navbar-brand" href="index.html">The Tech Blog
         </a> --}}
-        <a class="navbar-brand" href="index.html">The Tech Blog
-        </a>
 
         {{#if loggedIn}}
-        <a class="navbar-brand" href="/api/main/logout">Logout</a>
+        <a class="c" href="/api/main/logout">Logout</a>
         {{!-- <a href="/dashboard">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button> --}}
         {{else}}
         {{!-- <a href="/login">login</a> --}}
-        <a class="navbar-brand" href="/api/main/login">Login</a>
+        <a class=".text-primary" href="/api/main/login">Login</a>
         {{/if}}
 
     </div>
