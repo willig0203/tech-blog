@@ -15,20 +15,20 @@
     <div class="topnav" id="myTopnav">
         <a>The Tech Blog</a>
         <br>
-        <a href="/api/main/home" id="#home" class=".home">Home</a>
-        <a href="/api/main/dashboard">Dashboard</a>
-        <a href="/api/main/signup">Signup</a>
+        <a href="/main/home" id="#home" class=".home">Home</a>
+        <a href="/main/dashboard">Dashboard</a>
+        <a href="/main/signup">Signup</a>
 
         {{!-- <a class="navbar-brand" href="index.html">The Tech Blog
         </a> --}}
 
         {{#if loggedIn}}
-        <a class="c" href="/api/main/logout">Logout</a>
+        <a class="c" href="/main/logout">Logout</a>
         {{!-- <a href="/dashboard">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button> --}}
         {{else}}
         {{!-- <a href="/login">login</a> --}}
-        <a class=".text-primary" href="/api/main/login">Login</a>
+        <a class=".text-primary" href="/main/login">Login</a>
         {{/if}}
 
     </div>
