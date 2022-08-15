@@ -1,3 +1,13 @@
 <div>
     <p>Blog Post Comments (partial)</p>
 </div>
+
+<ul class="comments_list">
+    {{#each comments}}
+    <li>
+        {{post_id}}
+        {{user_id}}
+        {{comment}}
+    </li>
+    {{/each}}
+</ul>

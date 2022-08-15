@@ -1,0 +1,1 @@
+heroku run npm run seeds -a tech-blog-gdw

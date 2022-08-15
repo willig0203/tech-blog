@@ -4,4 +4,25 @@
         (which also includes other partials)</p>
 </div>
 
-{{> comments}}
+<ul class="posts_list">
+    {{#each posts}}
+    <p>
+        <li>
+            {{title}}
+            {{post}}
+            {{created}}
+
+            {{#each comments}}
+        <li>
+            {{comment}}
+            {{created}}
+            {{user.username}}
+        </li>
+        {{/each}}
+
+        </li>
+    </p>
+    {{/each}}
+</ul>
+
+{{!-- {{> comments}} --}}
