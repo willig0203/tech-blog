@@ -9,8 +9,8 @@ router.get("/home", (req, res) => {
   res.render("home");
 });
 
-router.get("/editpost", (req, res) => {
-  res.render("editpost");
+router.get("/posts", (req, res) => {
+  res.render("posts");
 });
 
 router.get("/dashboard", (req, res) => {
