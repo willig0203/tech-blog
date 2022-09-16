@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## This is a web application for users to post their thoughts on all things about hiking trails. The app is located on Heroku at [https://takea-hike.herokuapp.com/](https://takea-hike.herokuapp.com/).
+## This is a web application for users to post their own opinions about technical concepts, recent advancements, and new technologies. The app is located on Heroku at [https://tech-blog-gdw.herokuapp.com/](https://tech-blog-gdw.herokuapp.com/.
 
 ## Table of Contents:
 
@@ -17,7 +17,7 @@
 
 ## Installation
 
-Clone the repository from [GitHub](https://github.com/willig0203/fantastic-umbrella) onto your machine in a local folder if you want to run it locally.
+Clone the repository from [GitHub](https://github.com/willig0203/tech-blog) onto your machine in a local folder if you want to run it locally.
 
 ## Usage
 
@@ -32,17 +32,17 @@ Step 8: Enter localhost:3001 in your browser.
 
 OR
 
-Use the live app on Heroku: [https://taka-hike.herokuapp.com/](https://takea-hike.herokuapp.com/)
+Use the live app on Heroku: [https://tech-blog-gdw.herokuapp.com/](https://tech-blog-gdw.herokuapp.com/)
 
 ## Screenshots
 
-|        <b>Image running on a computer</b>        |
+|             <b>Image of database</b>             |
 | :----------------------------------------------: |
 | ![space-1.jpg](./assets/images/tech_blog_db.png) |
 
-<!-- |         <b>Image running on a mobile device</b>          |
-| :------------------------------------------------------: |
-| ![space-2.jpg](./assets/images/homescreenshotmobile.jpg) | -->
+|       <b>Image running on a computer</b>       |
+| :--------------------------------------------: |
+| ![space-2.jpg](./assets/images/Screenshot.jpg) |
 
 ## License
 
